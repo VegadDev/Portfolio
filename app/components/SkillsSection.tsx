@@ -6,12 +6,12 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-	{ name: 'React Native', level: 95 },
-	{ name: 'Swift', level: 90 },
 	{ name: 'Kotlin', level: 85 },
+	{ name: 'Jetpack Compose', level: 88 },
 	{ name: 'Flutter', level: 80 },
-	{ name: 'Firebase', level: 88 },
-	{ name: 'App Store Optimization', level: 85 },
+	{ name: 'Dart', level: 88 },
+	{ name: 'Local Database', level: 88 },
+	{ name: 'UI Design', level: 88 },
 ];
 
 const SkillsSection = () => {
