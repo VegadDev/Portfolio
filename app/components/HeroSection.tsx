@@ -11,7 +11,7 @@ const HeroSection = () => {
 			<div className="container mx-auto px-4 z-10">
 				<div className="group bg-gradient-to-b from-gray-800/50 to-gray-900/50 rounded-xl sm:rounded-2xl p-1 max-w-2xl mx-auto">
 					<div className="bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl sm:rounded-2xl overflow-hidden p-4 sm:p-6">
-						<span className="text-lg md:text-xl text-gray-400 mb-2 block text-left">Hi, I'm</span>
+						<span className="text-lg md:text-xl text-gray-400 mb-2 block text-left">Hi, I&apos;m</span>
 						<h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 text-left">
 							<span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 text-transparent bg-clip-text bg-[size:200%] animate-gradient">
 								Devdatt Vegad
@@ -29,7 +29,7 @@ const HeroSection = () => {
 							Creating user-friendly apps. I have four months of internship experience and enjoy building clean, efficient, and modern applications that solve real-world problems.
 						</p>
 						<p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed text-left mt-4">
-							I'm skilled in Kotlin, Jetpack Compose, Room Database, Firebase integration, API, GitHub, and dependency injection. I'm currently learning Flutter development to grow my mobile development skills. I have experience in Shopify Website Development also. When I'm not coding, I explore new tech trends or work on personal projects to stay sharp. I'm excited to connect and bring my expertise to innovative projects!
+							I&apos;m skilled in Kotlin, Jetpack Compose, Room Database, Firebase integration, API, GitHub, and dependency injection. I&apos;m currently learning Flutter development to grow my mobile development skills. I have experience in Shopify Website Development also. When I&apos;m not coding, I explore new tech trends or work on personal projects to stay sharp. I&apos;m excited to connect and bring my expertise to innovative projects!
 						</p>
 					</div>
 				</div>
