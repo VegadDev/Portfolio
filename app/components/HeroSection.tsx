@@ -10,7 +10,7 @@ const HeroSection = () => {
 
 			<div className="container mx-auto px-4 z-10">
 				<div className="text-center mb-8">
-					<span className="text-lg md:text-xl text-gray-400 mb-2 block">Hi, I'm</span>
+					<span className="text-lg md:text-xl text-gray-400 mb-2 block">Hi, I&apos;m</span>
 					<h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4">
 						<span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 text-transparent bg-clip-text bg-[size:200%] animate-gradient">
 							Devdatt Vegad
@@ -30,7 +30,7 @@ const HeroSection = () => {
 								Creating user-friendly apps. I have six months of internship experience and enjoy building clean, efficient, and modern applications that solve real-world problems.
 							</p>
 							<p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed text-left mt-4">
-								I'm skilled in Kotlin, Jetpack Compose, Room Database, Firebase integration, APIs, GitHub, and dependency injection. I'm currently learning Flutter and Dart to expand my mobile development expertise. I also have experience in Shopify website development. When I'm not coding, I explore emerging tech trends or work on personal projects to stay sharp. I'm excited to connect and contribute my skills to innovative projects!
+								I&apos;m skilled in Kotlin, Jetpack Compose, Room Database, Firebase integration, APIs, GitHub, and dependency injection. I&apos;m currently learning Flutter and Dart to expand my mobile development expertise. I also have experience in Shopify website development. When I&apos;m not coding, I explore emerging tech trends or work on personal projects to stay sharp. I&apos;m excited to connect and contribute my skills to innovative projects!
 							</p>
 						</div>
 					</div>
