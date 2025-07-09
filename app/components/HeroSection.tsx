@@ -10,10 +10,10 @@ const HeroSection = () => {
 
 			<div className="container mx-auto px-4 z-10">
 				<div className="text-center mb-8">
-					<span className="text-lg md:text-xl text-gray-400 mb-2 block">Hi, I&apos;m</span>
+					<span className="text-lg md:text-xl text-gray-400 mb-2 block">Hi, I'm</span>
 					<h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4">
 						<span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 text-transparent bg-clip-text bg-[size:200%] animate-gradient">
-							John Doe
+							Devdatt Vegad
 						</span>
 					</h1>
 					<h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-300">
@@ -21,18 +21,15 @@ const HeroSection = () => {
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed px-4">
 						Crafting exceptional mobile experiences with
-						<span className="text-blue-400"> React Native</span>,<span className="text-purple-400"> Swift</span>, and
-						<span className="text-blue-400"> Flutter</span>
+						<span className="text-blue-400"> Dart</span>, <span className="text-purple-400"> Kotlin</span>, and
+						<span className="text-blue-400"> Jetpack Compose</span>
 					</p>
-				</div>
-
-				
-
-
-				<div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block">
-					<svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-					</svg>
+					<p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed px-4 mt-4">
+						Creating user-friendly apps. I have four months of internship experience and enjoy building clean, efficient, and modern applications that solve real-world problems.
+					</p>
+					<p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed px-4 mt-4">
+						I'm skilled in Kotlin, Jetpack Compose, Room Database, Firebase integration, API, GitHub, and dependency injection. I'm currently learning Flutter development to grow my mobile development skills. I have experience in Shopify Website Development also. When I'm not coding, I explore new tech trends or work on personal projects to stay sharp. I'm excited to connect and bring my expertise to innovative projects!
+					</p>
 				</div>
 			</div>
 		</section>
