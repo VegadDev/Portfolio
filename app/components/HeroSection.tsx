@@ -22,7 +22,7 @@ const HeroSection = () => {
             >
               <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
                 <img
-                  src="/profile.jpg"
+                  src="/profile.png"
                   alt="Devdatt Vegad Profile"
                   className="w-full h-full rounded-full object-cover"
                 />
@@ -43,7 +43,8 @@ const HeroSection = () => {
             Mobile App Developer
           </h2>
 
-          <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed px-4">
+          {/* Centered Description */}
+          <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed text-center px-4">
             Crafting exceptional mobile experiences with
             <span className="text-blue-400"> Dart</span>, <span className="text-purple-400"> Kotlin</span>, and
             <span className="text-blue-400"> Jetpack Compose</span>
