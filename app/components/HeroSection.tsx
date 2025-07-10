@@ -30,7 +30,7 @@ const HeroSection = () => {
 								Creating user-friendly apps. I have six months of internship experience and enjoy building clean, efficient, and modern applications that solve real-world problems.
 							</p>
 							<p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed text-left mt-4">
-								I&apos;m skilled in Kotlin, Jetpack Compose, Room Database, Firebase integration, APIs, GitHub, and dependency injection. I&apos;m currently learning Flutter and Dart to expand my mobile development expertise. I also have experience in Shopify website development. When I&apos;m not coding, I explore emerging tech trends or work on personal projects to stay sharp. I&apos;m excited to connect and contribute my skills to innovative projects!
+								I&apos;m currently learning Flutter and Dart to expand my mobile development expertise. I also have experience in Shopify website development. When I&apos;m not coding, I explore new tech trends or work on personal projects to stay sharp. I&apos;m excited to connect and contribute my skills to innovative projects!
 							</p>
 						</div>
 					</div>
