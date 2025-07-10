@@ -11,32 +11,38 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 z-10">
-        <div className="text-left mb-8">
-          {/* Profile Icon */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="mb-6"
-          >
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
-              <img
-                src="/profile.jpg"
-                alt="Devdatt Vegad Profile"
-                className="w-full h-full rounded-full object-cover"
-              />
+        <div className="text-center mb-8">
+          {/* Profile Image and Name in Row */}
+          <div className="flex items-center justify-center gap-6 mb-4">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+              className="flex-shrink-0"
+            >
+              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
+                <img
+                  src="/profile.jpg"
+                  alt="Devdatt Vegad Profile"
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
+            </motion.div>
+            <div>
+              <span className="text-lg md:text-xl text-gray-400 block">Hi, I&apos;m</span>
+              <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-2">
+                <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 text-transparent bg-clip-text bg-[size:200%] animate-gradient">
+                  Devdatt Vegad
+                </span>
+              </h1>
             </div>
-          </motion.div>
+          </div>
 
-          <span className="text-lg md:text-xl text-gray-400 mb-2 block">Hi, I&apos;m</span>
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 text-transparent bg-clip-text bg-[size:200%] animate-gradient">
-              Devdatt Vegad
-            </span>
-          </h1>
+          {/* Subtitle */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-300">
             App Developer
           </h2>
+
           <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed px-4">
             Crafting exceptional mobile experiences with
             <span className="text-blue-400"> Dart</span>, <span className="text-purple-400"> Kotlin</span>, and
