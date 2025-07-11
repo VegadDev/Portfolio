@@ -34,7 +34,13 @@ const AppShowcase = () => {
   const [selectedApp, setSelectedApp] = useState<App | null>(null);
 
   // Updated appDetails with Know More field for Quick Cart (id: 1)
-  const appDetails = {
+ const appDetails: {
+  [key: string]: {
+    userFlow: string;
+    additionalInfo: string;
+    knowMore?: string;
+  };
+} = {
     1: {
       userFlow:
         "1. Easy and secure Google authentication using Firebase\n2. Add proper delivery address\n3. Navigate to product catalog by Best Selling and Category\n4. In Profile section, view My Orders for all current and previous orders, Addresses Screen for viewing all user addresses by different types like home, work, or flat\n5. Cart Icon to view all items in cart flawlessly with unique design\n6. Display cart values, delivery charges, and other platform fees to avoid user confusion\n7. On any product page, view Product nutrition including Protein, Calories, Fiber, and Fat",
