@@ -168,7 +168,7 @@ const AppShowcase = () => {
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.3 }}
               className="bg-gray-900 rounded-xl p-6 max-w-lg w-full mx-auto relative shadow-2xl border border-gradient-to-br from-blue-500/20 to-purple-500/20"
-              onClick={(e: { stopPropagation: () => any; }) => e.stopPropagation()} // Prevent closing when clicking inside modal
+             onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
             >
               <button
                 className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
