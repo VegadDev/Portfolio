@@ -15,7 +15,7 @@ const ContactSection = () => {
           className="text-center space-y-8"
         >
           <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Let's Create Amazing Mobile Experiences
+            Let&apos;s Create Amazing Mobile Experiences
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Ready to bring your mobile app idea to life? I specialize in

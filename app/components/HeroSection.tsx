@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -21,7 +22,7 @@ const HeroSection = () => {
               className="flex-shrink-0"
             >
               <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
-                <img
+                <Image
                   src="profile.webp"
                   alt="Devdatt Vegad Profile"
                   className="w-full h-full rounded-full object-cover"
