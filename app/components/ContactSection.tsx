@@ -2,6 +2,9 @@
 import { motion } from "framer-motion";
 
 const ContactSection = () => {
+  // Placeholder resume URL - replace with your actual hosted resume link
+  const resumeUrl = "https://drive.google.com/file/d/1jNFSrXJzbKeXRt318-i6pL5ruw6uD9Wj/view?usp=drivesdk";
+
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-gray-900 to-black">
       <div className="max-w-4xl mx-auto">
@@ -12,7 +15,7 @@ const ContactSection = () => {
           className="text-center space-y-8"
         >
           <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Let&apos;s Create Amazing Mobile Experiences
+            Let's Create Amazing Mobile Experiences
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Ready to bring your mobile app idea to life? I specialize in
@@ -56,10 +59,13 @@ const ContactSection = () => {
               </svg>
               Get in Touch
             </a>
-            <a
-              href="Devdatt_Resume.pdf"
+            <motion.a
+              href={resumeUrl}
               target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 bg-gray-800 rounded-full font-medium hover:bg-gray-700 transition-colors inline-flex items-center justify-center gap-2 border border-gray-700"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path
@@ -74,7 +80,7 @@ const ContactSection = () => {
                 />
               </svg>
               View Resume
-            </a>
+            </motion.a>
           </div>
 
           {/* Social Links */}
