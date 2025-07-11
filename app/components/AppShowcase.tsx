@@ -34,16 +34,10 @@ const AppShowcase = () => {
   const [selectedApp, setSelectedApp] = useState<App | null>(null);
 
   // Updated appDetails with Know More field for Quick Cart (id: 1)
- const appDetails: {
-  [key: string]: {
-    userFlow: string;
-    additionalInfo: string;
-    knowMore?: string;
-  };
-} = {
+  const appDetails = {
     1: {
       userFlow:
-        "1. Easy and secure Google authentication using Firebase\n2. Add proper delivery address\n3. Navigate to product catalog by Best Selling and Category\n4. In Profile section, view My Orders for all current and previous orders, Addresses Screen for viewing all user addresses by different types like home, work, or flat\n5. Cart Icon to view all items in cart flawlessly with unique design\n6. Display cart values, delivery charges, and other platform fees to avoid user confusion\n7. On any product page, view Product nutrition including Protein, Calories, Fiber, and Fat",
+        "1. Easy and secure Google authentication using Firebase\n2. Add proper delivery address\n3. Navigate to product catalog by Best Selling and Category\n4. In Profile section, view My Orders for all current and previous orders, Addresses Screen for viewing all user addresses by different types like home, work, or flat\n5. Cart Icon to view all items in cart flawlessly with unique design\n6. Display cart values, delivery charges, and other platform fees to avoid user confusion\n7. On any project page, view Product nutrition including Protein, Calories, Fiber, and Fat",
       additionalInfo:
         "Integrated with Firebase for real-time updates and push notifications.",
       knowMore: "https://github.com/VegadDev/Quick-Cart",
@@ -197,7 +191,7 @@ const AppShowcase = () => {
                   {selectedApp.description}
                 </p>
               </div>
-              <div className="space-y-6">
+              <div className="space-y-6 max-h-[70vh] overflow-y-auto">
                 <div className="p-4 bg-gray-800/50 rounded-lg border-l-4 border-blue-500/50">
                   <h4 className="text-lg font-semibold text-blue-400 mb-2">
                     User Flow
