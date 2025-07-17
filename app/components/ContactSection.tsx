@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const ContactSection = () => {
   // Placeholder resume URL - replace with your actual hosted resume link
-  const resumeUrl = "https://drive.google.com/file/d/1jNFSrXJzbKeXRt318-i6pL5ruw6uD9Wj/view?usp=drivesdk";
+  const resumeUrl = "https://drive.google.com/file/d/1mhDEpn0EsRhaRs1E1HndB7rkHx7vI7vV/view?usp=drivesdk";
 
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-gray-900 to-black">
@@ -79,7 +79,7 @@ const ContactSection = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              View Resume
+              View CV
             </motion.a>
           </div>
 

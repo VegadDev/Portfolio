@@ -56,8 +56,7 @@ const HeroSection = () => {
           <div className="group bg-gradient-to-b from-gray-800/50 to-gray-900/50 rounded-xl sm:rounded-2xl p-1 max-w-2xl mx-auto mt-4">
             <div className="bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl sm:rounded-2xl overflow-hidden p-4 sm:p-6">
               <p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed text-left">
-                Creating user-friendly apps. I have six months of internship
-                experience and enjoy building clean, efficient, and modern
+                Creating user-friendly apps. I have four months of experience and enjoy building clean, efficient, and modern
                 applications that solve real-world problems.
               </p>
               <p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed text-left mt-4">
